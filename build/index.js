@@ -1,6 +1,6 @@
 var chron = require('chronic');
 // non-ideal to require transforms this way, I use 6to5-node locally and index the transforms folder for single-line
-// `import {bundle, cssmin, etc.} from './transforms'`  
+// `import {bundle, cssmin, etc..} from './transforms'`  
 var bundle = require('./transforms/bundle');
 var cssmin = require('./transforms/cssmin');
 var del = require('./transforms/del');
@@ -23,21 +23,21 @@ chron('html', chron
 chron('scss', chron
   .path('./src/scss/style.scss')
   .dest('./public/css')
-  .watch('./src/scss/**'), // it's okay to switch up the order (src,dest,watch) a little bit
+  .watch('./src/scss/**'), 
   scss);
 
 chron('del', chron
-  .path('./src/.js', './public/js'),
+  .src('./src/.js', './public/js'), // same as .path (if used as first option)
   del);
 
 chron('es6', chron
-  .after('del') // same as .once
+  .after('del') // same as .once (if used as first option)
   .path('./src/es6/**')
   .dest('./src/.js'),
   es6to5);
 
 chron('bundle', chron
-  .follow('es6') // same as .once
+  .follow('es6') // same as .once (if used as first option)
   .path('./src/.js/main.js', 'bundle.js')
   .watch('./src/es6/**')
   .dest('./public/js'),
