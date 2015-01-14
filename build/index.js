@@ -1,5 +1,5 @@
 var chron = require('chronic');
-// non-ideal to require transforms this way, I use 6to5-node locally and index the transforms folder for single-line import {bundle, cssmin, etc.} from './transforms'  
+// non-ideal to require transforms this way, I use 6to5-node locally and index the transforms folder for single-line `import {bundle, cssmin, etc.} from './transforms'`  
 var bundle = require('./transforms/bundle');
 var cssmin = require('./transforms/cssmin');
 var del = require('./transforms/del');
