@@ -2,13 +2,12 @@
 
 This is literally the tip of the iceberg... example build folder for [chronic](https://github.com/codingalchemy/chronic)
 
-First: 
-
 ```bash
 
 $ git clone https://github.com/codingalchemy/chronic-seed.git
 $ cd chronic-seed
 $ npm install 
+$ node build
 ```
 
 ## Usage
