@@ -26,7 +26,7 @@ $ node build -w
 
 Then open public/index.html in your local browser (or pipe up a dev server)
 
-To watch files and rebuild incrementally (`livereload` is more efficient this way, just need to add additional livereload.listen() somewhere called once..)
+To watch files and rebuild incrementally (`livereload` is more efficient this way, just need to add additional `livereload.listen()` somewhere..)
 
 ```bash
 $ node build html scss bundle -w
