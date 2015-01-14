@@ -1,6 +1,8 @@
 # chronic-seed
 
-This is literally the tip of the iceberg... example build folder for [chronic](https://github.com/codingalchemy/chronic)
+This is literally the tip of the iceberg... seed project for [chronic](https://github.com/codingalchemy/chronic).
+
+See [build](https://github.com/codingalchemy/chronic-seed/tree/master/build)
 
 ```bash
 
