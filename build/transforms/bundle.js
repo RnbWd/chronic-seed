@@ -1,6 +1,7 @@
 var browserify = require('browserify');
 var livereload = require('gulp-livereload');
-
+// problems with livereload? make sure it's listening first? 
+// where to pipe it? after t.dest()?
 module.exports = function(t) {
   console.log(t.path);
   var b = browserify({debug: true});
