@@ -1,8 +1,6 @@
 # chronic-seed
 
-## Example Project
-
-This is literally the tip of the iceberg... but also my current dev environment :)
+This is literally the tip of the iceberg... example build folder for [chronic](https://github.com/codingalchemy/chronic)
 
 **First (if you haven't already):**
 
