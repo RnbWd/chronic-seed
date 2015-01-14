@@ -22,7 +22,7 @@ To watch files and rebuild everything (watches files in `chron.watch` for all ta
 $ node build -w
 ```
 
-To watch files rebuild incrementally (`livereload` is more efficient this way)
+To watch files and rebuild incrementally (`livereload` is more efficient this way)
 
 ```bash
 $ node build html scss bundle -w
