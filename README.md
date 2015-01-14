@@ -77,6 +77,6 @@ That's it!
 
 MIT 
 
-(Except for dympl.svg -- the dympl logo is not MIT licensed -- software is)
+(Except for [dympl.svg](https://github.com/codingalchemy/chronic-seed/blob/master/src/img/dympl.svg) -- the dympl logo is NOT MIT licensed)
 
 
