@@ -12,17 +12,17 @@ $ node build
 
 ## Usage
 
-To build everything once: 
+To run `default` task once: 
 ```bash
 $ node build
 ```
 
-To watch files and rebuild everything (anything you put in `chron.watch`): 
+To watch files and rebuild everything (watches files in `chron.watch` for all tasks running): 
 ```bash
 $ node build -w
 ```
 
-To watch rebuild individual tasks (`livereload` is more efficient this way)
+To watch files rebuild incrementally (`livereload` is more efficient this way)
 
 ```bash
 $ node build html scss bundle -w
