@@ -17,7 +17,7 @@ To run `default` task once:
 $ node build
 ```
 
-To watch files and rebuild everything (watches files in `chron.watch` for all tasks running and then runs  `default`): 
+To watch files and rebuild everything (watches files in `chron.watch` for all tasks running): 
 ```bash
 $ node build -w
 ```
