@@ -1,0 +1,25 @@
+{
+  "name": "chronic-seed",
+  "version": "0.0.1",
+  "description": "chronic-seed",
+  "repository": "codingalchemy/chronic-seed",
+  "main": "index.js",
+  "author": "RnbWd",
+  "dependencies": {},
+  "devDependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "scripts": {
+    "test": "mocha",
+    "git-update": "git add .; git commit -m 'update'; git push"
+  },
+  "homepage": "https://github.com/codingalchemy/chronic-seed",
+  "bugs": {
+    "url": "https://github.com/codingalchemy/chronic-seed/issues"
+  },
+  "keywords": [
+    "chronic-seed"
+  ],
+  "license": "MIT"
+}
