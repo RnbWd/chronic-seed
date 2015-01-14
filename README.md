@@ -24,6 +24,8 @@ To watch files and rebuild everything (watches files in `chron.watch` for all ta
 $ node build -w
 ```
 
+Then open public/index.html in your local browser (or pipe up a dev server)
+
 To watch files and rebuild incrementally (`livereload` is more efficient this way)
 
 ```bash
@@ -73,6 +75,8 @@ That's it!
 
 ## License
 
-MIT
+MIT 
+
+(Except for dympl.svg -- the dympl logo is not MIT licensed -- software is)
 
 
