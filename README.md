@@ -34,7 +34,7 @@ To watch files and rebuild incrementally:
 $ node build html scss bundle -w
 ```
 
-Or individually
+Or run tasks individually
 ```bash
 $ node build del
   del      Running...
