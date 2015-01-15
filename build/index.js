@@ -11,9 +11,9 @@ var minify = require('./transforms/minify');
 var prebundle = require('./transforms/prebundle');
 var scss = require('./transforms/scss');
 
-chron('default', chron
-  .once('html', 'scss', 'img', 'bundle'),
-  listen);
+chron('default', chron.once('listen', 'html', 'scss', 'img', 'bundle'));
+
+chron('listen', listen);
 
 chron('html', chron
   .path('./src/html/index.html').watch('./src/html/**') 

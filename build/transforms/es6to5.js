@@ -3,7 +3,6 @@ var ext = require('gulp-ext');
 var to5 = require('6to5');
 
 module.exports = function (t) {
-  // console.log(t.watching);
   t.build(t.src(), tap(es6ify), ext.replace('js'), t.dest());
 }
 
